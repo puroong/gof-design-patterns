@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b86889ad-6539-41a7-9b63-55fc9f59bcba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/method/NYPizzaIngredientFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/method/NYPizzaStore.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/method/PizzaIngredientFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/method/PizzaStore.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/method/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/cheese/Cheese.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/cheese/ReggianoCheese.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/clams/Clams.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/clams/FreshClams.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/dough/Dough.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/dough/ThinCrustDough.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pepperoni/Pepperoni.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pepperoni/SlicedPepperoni.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/CheesePizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/ClamPizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/NYStyleCheesePizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/NYStyleClamPizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/NYStylePepporoniPizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/NYStyleVeggiePizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/PepperoniPizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/Pizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/pizza/VeggiePizza.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/sauce/MarinaraSauce.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/sauce/Sauce.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/veggie/Garlic.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/veggie/Mushroom.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/veggie/Onion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/veggie/RedPepper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/model/veggie/Veggie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/simple/PizzaStore.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/simple/SimpleFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/pizzastore/simple/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/ChocolateBoiler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/Singletone.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gof-design-patterns/META-INF/gof-design-patterns.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gof-design-patterns/META-INF/gof-design-patterns.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
