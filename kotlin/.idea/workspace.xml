@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b86889ad-6539-41a7-9b63-55fc9f59bcba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obeserver/weathermonitoring/CurrentConditionDisplay.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obeserver/weathermonitoring/DisplayElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obeserver/weathermonitoring/ForecastDisplay.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obeserver/weathermonitoring/Observer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obeserver/weathermonitoring/StatisticsDisplay.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obeserver/weathermonitoring/Subject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obeserver/weathermonitoring/WeatherData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obeserver/weathermonitoring/main.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1WhfVEWVTLFXD58vTN9oil4VmyT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/blog/blog" />
+  </component>
+  <component name="RunManager" selected="Kotlin.obeserver.weathermonitoring.MainKt">
+    <configuration name="obeserver.weathermonitoring.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="gof-design-patterns" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="obeserver.weathermonitoring.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="strategy.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="gof-design-patterns" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="strategy.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.obeserver.weathermonitoring.MainKt" />
+        <item itemvalue="Kotlin.strategy.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b86889ad-6539-41a7-9b63-55fc9f59bcba" name="Default Changelist" comment="" />
+      <created>1579606768048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579606768048</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2377" y="102" width="442" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1579610801534">
+      <screen x="0" y="27" width="3286" height="988" />
+    </state>
+    <state x="2377" y="102" width="442" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.3286.988@0.27.3286.988" timestamp="1579610801534" />
+    <state x="2386" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579612682391">
+      <screen x="0" y="27" width="3286" height="988" />
+    </state>
+    <state x="2386" y="141" width="424" height="484" key="FileChooserDialogImpl/0.27.3286.988@0.27.3286.988" timestamp="1579612682391" />
+    <state width="1320" height="153" key="GridCell.Tab.0.bottom" timestamp="1579612687581">
+      <screen x="0" y="27" width="3286" height="988" />
+    </state>
+    <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.27.3286.988@0.27.3286.988" timestamp="1579612687581" />
+    <state width="1320" height="153" key="GridCell.Tab.0.center" timestamp="1579612687579">
+      <screen x="0" y="27" width="3286" height="988" />
+    </state>
+    <state width="1320" height="153" key="GridCell.Tab.0.center/0.27.3286.988@0.27.3286.988" timestamp="1579612687579" />
+    <state width="1320" height="153" key="GridCell.Tab.0.left" timestamp="1579612687579">
+      <screen x="0" y="27" width="3286" height="988" />
+    </state>
+    <state width="1320" height="153" key="GridCell.Tab.0.left/0.27.3286.988@0.27.3286.988" timestamp="1579612687578" />
+    <state width="1320" height="153" key="GridCell.Tab.0.right" timestamp="1579612687580">
+      <screen x="0" y="27" width="3286" height="988" />
+    </state>
+    <state width="1320" height="153" key="GridCell.Tab.0.right/0.27.3286.988@0.27.3286.988" timestamp="1579612687580" />
+    <state x="2266" y="159" width="672" height="678" key="search.everywhere.popup" timestamp="1579610022605">
+      <screen x="0" y="27" width="3286" height="988" />
+    </state>
+    <state x="2266" y="159" width="672" height="678" key="search.everywhere.popup/0.27.3286.988@0.27.3286.988" timestamp="1579610022605" />
+  </component>
+</project>
