@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b86889ad-6539-41a7-9b63-55fc9f59bcba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/singleton/ChocolateBoiler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Singletone.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/Command.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/GarageDoor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/GarageDoorOpenCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/Light.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/LightOffCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/LightOnCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/MacroCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/NoCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/Stereo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/common/StereoOnWIthCDCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/complicated/RemoteControl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/complicated/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/simple/SimpleRemoteControl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/simple/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gof-design-patterns/META-INF/gof-design-patterns.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gof-design-patterns/META-INF/gof-design-patterns.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -39,13 +52,43 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="command.common" />
+      <recent name="command.complicated" />
+      <recent name="command.simple" />
       <recent name="factory.pizzastore.model.veggie" />
       <recent name="factory.pizzastore.method" />
-      <recent name="factory.pizzastore.simple" />
-      <recent name="factory.pizzastore.model.pizza" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/command/simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.factory.pizzastore.methodNabstract.MainKt">
+  <component name="RunManager" selected="Kotlin.command.complicated.MainKt">
+    <configuration name="command.complicated.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="gof-design-patterns" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="command.complicated.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="command.simple.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="gof-design-patterns" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="command.simple.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="decorator.starbuzz.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="gof-design-patterns" />
       <option name="VM_PARAMETERS" />
@@ -85,39 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="obeserver.weathermonitoring.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="gof-design-patterns" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="obeserver.weathermonitoring.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="strategy.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="gof-design-patterns" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="strategy.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.command.complicated.MainKt" />
+        <item itemvalue="Kotlin.command.simple.MainKt" />
         <item itemvalue="Kotlin.factory.pizzastore.methodNabstract.MainKt" />
         <item itemvalue="Kotlin.factory.pizzastore.simple.MainKt" />
         <item itemvalue="Kotlin.decorator.starbuzz.MainKt" />
-        <item itemvalue="Kotlin.obeserver.weathermonitoring.MainKt" />
-        <item itemvalue="Kotlin.strategy.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,51 +164,51 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2844" y="58" width="442" height="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1579678478397">
+    <state x="2844" y="58" width="442" height="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1579698289272">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state x="2844" y="58" width="442" height="437" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579678478397" />
+    <state x="2844" y="58" width="442" height="437" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579698289272" />
     <state x="2377" y="102" width="442" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.3286.988@0.27.3286.988" timestamp="1579610801534" />
-    <state x="2356" y="21" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1579678677825">
+    <state x="2356" y="2" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1579697031161">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state x="2356" y="21" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579678677825" />
+    <state x="2356" y="2" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579697031161" />
     <state x="2386" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579612682391">
       <screen x="0" y="27" width="3286" height="988" />
     </state>
     <state x="2386" y="141" width="424" height="484" key="FileChooserDialogImpl/0.27.3286.988@0.27.3286.988" timestamp="1579612682391" />
-    <state width="1320" height="153" key="GridCell.Tab.0.bottom" timestamp="1579679325360">
+    <state width="1320" height="153" key="GridCell.Tab.0.bottom" timestamp="1579698018951">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579679325360" />
+    <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579698018951" />
     <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.27.3286.988@0.27.3286.988" timestamp="1579612687581" />
-    <state width="1320" height="153" key="GridCell.Tab.0.center" timestamp="1579679325360">
+    <state width="1320" height="153" key="GridCell.Tab.0.center" timestamp="1579698018951">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.center/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579679325360" />
+    <state width="1320" height="153" key="GridCell.Tab.0.center/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579698018951" />
     <state width="1320" height="153" key="GridCell.Tab.0.center/0.27.3286.988@0.27.3286.988" timestamp="1579612687579" />
-    <state width="1320" height="153" key="GridCell.Tab.0.left" timestamp="1579679325360">
+    <state width="1320" height="153" key="GridCell.Tab.0.left" timestamp="1579698018950">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.left/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579679325360" />
+    <state width="1320" height="153" key="GridCell.Tab.0.left/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579698018950" />
     <state width="1320" height="153" key="GridCell.Tab.0.left/0.27.3286.988@0.27.3286.988" timestamp="1579612687578" />
-    <state width="1320" height="153" key="GridCell.Tab.0.right" timestamp="1579679325360">
+    <state width="1320" height="153" key="GridCell.Tab.0.right" timestamp="1579698018951">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579679325360" />
+    <state width="1320" height="153" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579698018951" />
     <state width="1320" height="153" key="GridCell.Tab.0.right/0.27.3286.988@0.27.3286.988" timestamp="1579612687580" />
     <state x="2371" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579674765915">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
     <state x="2371" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579674765915" />
-    <state x="2267" y="168" key="run.anything.popup" timestamp="1579674724635">
+    <state x="2267" y="168" key="run.anything.popup" timestamp="1579697069788">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state x="2267" y="168" key="run.anything.popup/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579674724635" />
-    <state x="2862" y="103" width="672" height="528" key="search.everywhere.popup" timestamp="1579677402807">
+    <state x="2267" y="168" key="run.anything.popup/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579697069788" />
+    <state x="2862" y="103" width="672" height="528" key="search.everywhere.popup" timestamp="1579697446222">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state x="2862" y="103" width="672" height="528" key="search.everywhere.popup/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579677402807" />
+    <state x="2862" y="103" width="672" height="528" key="search.everywhere.popup/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579697446222" />
     <state x="2266" y="159" width="672" height="678" key="search.everywhere.popup/0.27.3286.988@0.27.3286.988" timestamp="1579610022605" />
   </component>
 </project>
