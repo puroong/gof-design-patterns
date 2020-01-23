@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b86889ad-6539-41a7-9b63-55fc9f59bcba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/template/codingbarista/CaffeineBeverage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/codingbarista/Coffee.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/codingbarista/CoffeeWithHook.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/codingbarista/Tea.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/codingbarista/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sort/Duck.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sort/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/CafeMenu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/DinerMenu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Menu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/MenuItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/PancakeHouseMenu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/Waitress.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/gof-design-patterns/META-INF/gof-design-patterns.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gof-design-patterns/META-INF/gof-design-patterns.kotlin_module" afterDir="false" />
     </list>
@@ -21,9 +21,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -56,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src/command/simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.template.sort.MainKt">
+  <component name="RunManager" selected="Kotlin.iterator.MainKt">
     <configuration name="adapter.facade.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="gof-design-patterns" />
       <option name="VM_PARAMETERS" />
@@ -83,14 +83,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="command.complicated.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="iterator.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="gof-design-patterns" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="command.complicated.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="iterator.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.iterator.MainKt" />
         <item itemvalue="Kotlin.template.sort.MainKt" />
         <item itemvalue="Kotlin.template.codingbarista.MainKt" />
         <item itemvalue="Kotlin.adapter.facade.MainKt" />
         <item itemvalue="Kotlin.adapter.simple.MainKt" />
-        <item itemvalue="Kotlin.command.complicated.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -158,15 +158,19 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2834" y="58" width="452" height="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1579741670377">
+    <state x="2834" y="58" width="452" height="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1579745686248">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state x="2834" y="58" width="452" height="437" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579741670377" />
+    <state x="2834" y="58" width="452" height="437" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579745686248" />
     <state x="2377" y="102" width="442" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.3286.988@0.27.3286.988" timestamp="1579610801534" />
     <state x="2360" y="0" width="476" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579711852670">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
     <state x="2360" y="0" width="476" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579711852670" />
+    <state x="2336" y="132" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579745926881">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2336" y="132" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579745926881" />
     <state x="2356" y="2" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1579710262203">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
@@ -175,30 +179,30 @@
       <screen x="0" y="27" width="3286" height="988" />
     </state>
     <state x="2386" y="141" width="424" height="484" key="FileChooserDialogImpl/0.27.3286.988@0.27.3286.988" timestamp="1579612682391" />
-    <state width="1320" height="153" key="GridCell.Tab.0.bottom" timestamp="1579741993653">
+    <state width="1320" height="153" key="GridCell.Tab.0.bottom" timestamp="1579746548271">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579741993653" />
+    <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579746548271" />
     <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.27.3286.988@0.27.3286.988" timestamp="1579612687581" />
-    <state width="1320" height="153" key="GridCell.Tab.0.center" timestamp="1579741993653">
+    <state width="1320" height="153" key="GridCell.Tab.0.center" timestamp="1579746548271">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.center/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579741993653" />
+    <state width="1320" height="153" key="GridCell.Tab.0.center/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579746548271" />
     <state width="1320" height="153" key="GridCell.Tab.0.center/0.27.3286.988@0.27.3286.988" timestamp="1579612687579" />
-    <state width="1320" height="153" key="GridCell.Tab.0.left" timestamp="1579741993653">
+    <state width="1320" height="153" key="GridCell.Tab.0.left" timestamp="1579746548270">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.left/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579741993653" />
+    <state width="1320" height="153" key="GridCell.Tab.0.left/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579746548270" />
     <state width="1320" height="153" key="GridCell.Tab.0.left/0.27.3286.988@0.27.3286.988" timestamp="1579612687578" />
-    <state width="1320" height="153" key="GridCell.Tab.0.right" timestamp="1579741993653">
+    <state width="1320" height="153" key="GridCell.Tab.0.right" timestamp="1579746548271">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579741993653" />
+    <state width="1320" height="153" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579746548271" />
     <state width="1320" height="153" key="GridCell.Tab.0.right/0.27.3286.988@0.27.3286.988" timestamp="1579612687580" />
-    <state x="2371" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579674765915">
+    <state x="2371" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579746307370">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
-    <state x="2371" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579674765915" />
+    <state x="2371" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579746307370" />
     <state x="2267" y="168" key="run.anything.popup" timestamp="1579697069788">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
