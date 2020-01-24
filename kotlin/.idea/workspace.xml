@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b86889ad-6539-41a7-9b63-55fc9f59bcba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/GumballMachine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/GumballMonitor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/HasQuarterState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/NoQuarterState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/SoldOutState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/SoldState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/WinnerState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/raw/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/GumballMachine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/GumballMachineRemote.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/GumballMonitor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/HasQuarterState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/NoQuarterState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/RmiClient.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/RmiServer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/SoldOutState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/SoldState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/rmi/WinnerState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/AbstractDuckFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/CountingDuckFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/DuckCall.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/DuckFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/Flock.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/Goose.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/GooseAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/MallardDuck.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/QuackCounter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/QuackObservable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/Quackable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/RedheadDuck.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/RubberDuck.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compound/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/gof-design-patterns/META-INF/gof-design-patterns.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gof-design-patterns/META-INF/gof-design-patterns.kotlin_module" afterDir="false" />
     </list>
@@ -35,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -82,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src/command/simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.proxy.raw.MainKt">
+  <component name="RunManager" selected="Kotlin.compound.MainKt">
     <configuration name="composite.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="gof-design-patterns" />
       <option name="VM_PARAMETERS" />
@@ -91,6 +84,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="composite.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compound.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="gof-design-patterns" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="compound.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,33 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="template.sort.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="gof-design-patterns" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="template.sort.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Kotlin.composite.MainKt" />
       <item itemvalue="Kotlin.iterator.MainKt" />
       <item itemvalue="Kotlin.state.MainKt" />
-      <item itemvalue="Kotlin.template.sort.MainKt" />
       <item itemvalue="Kotlin.proxy.raw.MainKt" />
+      <item itemvalue="Kotlin.compound.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.compound.MainKt" />
         <item itemvalue="Kotlin.proxy.raw.MainKt" />
         <item itemvalue="Kotlin.state.MainKt" />
         <item itemvalue="Kotlin.composite.MainKt" />
         <item itemvalue="Kotlin.iterator.MainKt" />
-        <item itemvalue="Kotlin.template.sort.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -195,11 +188,12 @@
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
     <state x="2061" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579758667937" />
-    <state x="2834" y="58" width="452" height="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1579796479680">
-      <screen x="1920" y="0" width="1366" height="768" />
+    <state x="2834" y="222" width="442" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1579828495026">
+      <screen x="1920" y="164" width="1366" height="768" />
     </state>
     <state x="2834" y="58" width="452" height="437" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579796479680" />
     <state x="2377" y="102" width="442" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.3286.988@0.27.3286.988" timestamp="1579610801534" />
+    <state x="2834" y="222" width="442" height="562" key="#com.intellij.ide.util.MemberChooser/1920.164.1366.768/0.191.1920.676@1920.164.1366.768" timestamp="1579828495026" />
     <state x="2360" y="0" width="476" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579711852670">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
@@ -216,26 +210,30 @@
       <screen x="0" y="27" width="3286" height="988" />
     </state>
     <state x="2386" y="141" width="424" height="484" key="FileChooserDialogImpl/0.27.3286.988@0.27.3286.988" timestamp="1579612682391" />
-    <state width="1320" height="230" key="GridCell.Tab.0.bottom" timestamp="1579798134044">
-      <screen x="1920" y="0" width="1366" height="768" />
+    <state width="1320" height="127" key="GridCell.Tab.0.bottom" timestamp="1579839771468">
+      <screen x="1920" y="164" width="1366" height="768" />
     </state>
     <state width="1320" height="230" key="GridCell.Tab.0.bottom/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579798134044" />
     <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.27.3286.988@0.27.3286.988" timestamp="1579612687581" />
-    <state width="1320" height="230" key="GridCell.Tab.0.center" timestamp="1579798134043">
-      <screen x="1920" y="0" width="1366" height="768" />
+    <state width="1320" height="127" key="GridCell.Tab.0.bottom/1920.164.1366.768/0.191.1920.676@1920.164.1366.768" timestamp="1579839771468" />
+    <state width="1320" height="127" key="GridCell.Tab.0.center" timestamp="1579839771468">
+      <screen x="1920" y="164" width="1366" height="768" />
     </state>
     <state width="1320" height="230" key="GridCell.Tab.0.center/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579798134043" />
     <state width="1320" height="153" key="GridCell.Tab.0.center/0.27.3286.988@0.27.3286.988" timestamp="1579612687579" />
-    <state width="1320" height="230" key="GridCell.Tab.0.left" timestamp="1579798134043">
-      <screen x="1920" y="0" width="1366" height="768" />
+    <state width="1320" height="127" key="GridCell.Tab.0.center/1920.164.1366.768/0.191.1920.676@1920.164.1366.768" timestamp="1579839771468" />
+    <state width="1320" height="127" key="GridCell.Tab.0.left" timestamp="1579839771468">
+      <screen x="1920" y="164" width="1366" height="768" />
     </state>
     <state width="1320" height="230" key="GridCell.Tab.0.left/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579798134043" />
     <state width="1320" height="153" key="GridCell.Tab.0.left/0.27.3286.988@0.27.3286.988" timestamp="1579612687578" />
-    <state width="1320" height="230" key="GridCell.Tab.0.right" timestamp="1579798134044">
-      <screen x="1920" y="0" width="1366" height="768" />
+    <state width="1320" height="127" key="GridCell.Tab.0.left/1920.164.1366.768/0.191.1920.676@1920.164.1366.768" timestamp="1579839771468" />
+    <state width="1320" height="127" key="GridCell.Tab.0.right" timestamp="1579839771468">
+      <screen x="1920" y="164" width="1366" height="768" />
     </state>
     <state width="1320" height="230" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579798134044" />
     <state width="1320" height="153" key="GridCell.Tab.0.right/0.27.3286.988@0.27.3286.988" timestamp="1579612687580" />
+    <state width="1320" height="127" key="GridCell.Tab.0.right/1920.164.1366.768/0.191.1920.676@1920.164.1366.768" timestamp="1579839771468" />
     <state width="1320" height="230" key="GridCell.Tab.1.bottom" timestamp="1579798134044">
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
@@ -268,10 +266,11 @@
       <screen x="1920" y="0" width="1366" height="768" />
     </state>
     <state x="2267" y="168" key="run.anything.popup/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579787106527" />
-    <state x="2862" y="103" width="672" height="528" key="search.everywhere.popup" timestamp="1579797162401">
-      <screen x="1920" y="0" width="1366" height="768" />
+    <state x="2862" y="267" width="672" height="528" key="search.everywhere.popup" timestamp="1579828515049">
+      <screen x="1920" y="164" width="1366" height="768" />
     </state>
     <state x="2862" y="103" width="672" height="528" key="search.everywhere.popup/0.27.1920.988/1920.0.1366.768@1920.0.1366.768" timestamp="1579797162401" />
     <state x="2266" y="159" width="672" height="678" key="search.everywhere.popup/0.27.3286.988@0.27.3286.988" timestamp="1579610022605" />
+    <state x="2862" y="267" width="672" height="528" key="search.everywhere.popup/1920.164.1366.768/0.191.1920.676@1920.164.1366.768" timestamp="1579828515049" />
   </component>
 </project>
